@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop-lesson5-eightball", "oop-lesson5-eightball\oop-lesson5-eightball.csproj", "{4827B34D-6125-4989-980C-5923C6E7075F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4827B34D-6125-4989-980C-5923C6E7075F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4827B34D-6125-4989-980C-5923C6E7075F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4827B34D-6125-4989-980C-5923C6E7075F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4827B34D-6125-4989-980C-5923C6E7075F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03206D4E-417C-414F-9F06-CEB737D08BD5}
+	EndGlobalSection
+EndGlobal
