@@ -12,8 +12,6 @@ namespace oop_lesson5_eightball
             Random number = new();
             randomNumber = number.Next(20);
 
-            Console.WriteLine($"Your number: {randomNumber}");
-
             List<string> possibleAnswers = new();
             possibleAnswers.Insert(0, "It is certain.");
             possibleAnswers.Insert(1, "It is decidedly so.");
@@ -37,6 +35,9 @@ namespace oop_lesson5_eightball
             possibleAnswers.Insert(19, "Very doubtful.");
 
             var answer = possibleAnswers.ElementAt(randomNumber);
+
+            Console.WriteLine("Please, make a question of Yes or No: ");
+            var question = Console.ReadLine();
             Console.WriteLine($"Your answer: {answer}");
 
 
